@@ -1,9 +1,8 @@
-# future improvements
-    # creating universal powerpoint object (google python quickstart or odpslides)
+from spotify_extractor_scripts.create_dataframe import create_dataframe
+from powerpoint_creator_scripts.create_powerpoint import create_powerpoint
 
-# imports
-import powerpoint_creator as pc
-import spotify_extractor as se
+def main():
+    df, playlist_name = create_dataframe()
+    create_powerpoint(df, playlist_name)
 
-df, playlist_name = se.create_dataframe()
-pc.create_powerpoint(df, playlist_name)
+main()
