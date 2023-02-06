@@ -1,0 +1,7 @@
+*.DS_Store
+output/
+etl_env/
+*.pyc
+*.code-workspace
+*__pycache__
+*.cache
