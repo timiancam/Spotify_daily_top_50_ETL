@@ -54,3 +54,4 @@ Authentication tokens can be retrieved from making an account on <https://develo
 - Research the proper way to package scripts (https://packaging.python.org/en/latest/tutorials/packaging-projects/).
 - Fix encoding problems from non-english characters.
 - List comprehension for get_main_track_info() for each key instead of iterating over the playlist_tracks?
+- Add docstrings to functions / modules.
